@@ -11,7 +11,7 @@ var held = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	soundPlayer = "../AudioStreamPlayer"
+	soundPlayer = get_node("../AudioStreamPlayer")
 	connect("body_entered", self, "_on_body_entered")
 	pass # Replace with function body.
 
@@ -32,6 +32,9 @@ func _input_event(viewport, event, shape_idx):
 func _on_body_entered(body):
 	var force = get_linear_velocity().length()
 	print(force)
+	if(force > 100):
+		soundPlayer.play_random()
+
 
 func _physics_process(delta):
 	if held:
