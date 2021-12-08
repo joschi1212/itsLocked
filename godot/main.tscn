@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=2]
+[gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://assets/Background.png" type="Texture" id=1]
 [ext_resource path="res://assets/chest_closed.png" type="Texture" id=2]
@@ -41,6 +41,14 @@
 [ext_resource path="res://assets/stark_voice/1208603283_1_dlc1seranavoice_Das war stark!.ogg" type="AudioStream" id=39]
 [ext_resource path="res://assets/kaputt_voice/1208134020_1_dlc1seranavoice_oh, repariert..ogg" type="AudioStream" id=40]
 [ext_resource path="res://assets/kaputt_voice/1208439420_1_dlc1seranavoice_Sie ist kaputt!.ogg" type="AudioStream" id=41]
+[ext_resource path="res://assets/random_voice/1208093035_1_dlc1seranavoice_Wahrscheinlich .ogg" type="AudioStream" id=42]
+[ext_resource path="res://assets/random_voice/1208598043_1_dlc1seranavoice_Das Thema ist L.ogg" type="AudioStream" id=43]
+[ext_resource path="res://assets/random_voice/1208718021_1_dlc1seranavoice_Bei den Göttern.ogg" type="AudioStream" id=44]
+[ext_resource path="res://assets/random_voice/1208619540_1_dlc1seranavoice_Mach weiter so!.ogg" type="AudioStream" id=45]
+[ext_resource path="res://assets/random_voice/1208154147_1_dlc1seranavoice_Das spiel heißt.ogg" type="AudioStream" id=46]
+[ext_resource path="res://assets/random_voice/1208225146_1_dlc1seranavoice_Was ist in der .ogg" type="AudioStream" id=47]
+[ext_resource path="res://assets/random_voice/1208717689_1_dlc1seranavoice_Was machst du m.ogg" type="AudioStream" id=48]
+[ext_resource path="res://assets/stark_voice/1208187568_1_dlc1seranavoice_Stark wie ein B.ogg" type="AudioStream" id=49]
 
 [sub_resource type="PhysicsMaterial" id=3]
 friction = 0.97
@@ -113,8 +121,8 @@ audio_files1 = [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 19 ), ExtResou
 interrupting = true
 
 [node name="random_voice_sfx" parent="." instance=ExtResource( 20 )]
-audio_files1 = [ ExtResource( 32 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 27 ), ExtResource( 26 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 36 ), ExtResource( 35 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ]
-audio_files2 = [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ) ]
+audio_files1 = [ ExtResource( 32 ), ExtResource( 28 ), ExtResource( 25 ), ExtResource( 21 ), ExtResource( 34 ), ExtResource( 33 ), ExtResource( 27 ), ExtResource( 26 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 36 ), ExtResource( 35 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 42 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 43 ), ExtResource( 45 ), ExtResource( 48 ), ExtResource( 44 ) ]
+audio_files2 = [ ExtResource( 37 ), ExtResource( 49 ), ExtResource( 38 ), ExtResource( 39 ) ]
 audio_files3 = [ ExtResource( 41 ), ExtResource( 40 ) ]
 
 [node name="specific_voice_sfx" parent="." instance=ExtResource( 20 )]

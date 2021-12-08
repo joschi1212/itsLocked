@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1208717689_1_dlc1seranavoice_Was machst du m.ogg-96a809d6ec04890bbbfea575a956f361.oggstr"
+
+[deps]
+
+source_file="res://assets/random_voice/1208717689_1_dlc1seranavoice_Was machst du m.ogg"
+dest_files=[ "res://.import/1208717689_1_dlc1seranavoice_Was machst du m.ogg-96a809d6ec04890bbbfea575a956f361.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

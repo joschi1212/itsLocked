@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1208093035_1_dlc1seranavoice_Wahrscheinlich .ogg-55b9a9b80e52fa72804a75f34f7b73d9.oggstr"
+
+[deps]
+
+source_file="res://assets/random_voice/1208093035_1_dlc1seranavoice_Wahrscheinlich .ogg"
+dest_files=[ "res://.import/1208093035_1_dlc1seranavoice_Wahrscheinlich .ogg-55b9a9b80e52fa72804a75f34f7b73d9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

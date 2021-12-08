@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1208619540_1_dlc1seranavoice_Mach weiter so!.ogg-65cbd41e0c512270f8054a63d4fc4ce3.oggstr"
+
+[deps]
+
+source_file="res://assets/random_voice/1208619540_1_dlc1seranavoice_Mach weiter so!.ogg"
+dest_files=[ "res://.import/1208619540_1_dlc1seranavoice_Mach weiter so!.ogg-65cbd41e0c512270f8054a63d4fc4ce3.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
