@@ -1,6 +1,7 @@
 extends AudioStreamPlayer
 
 export(Array, AudioStream) var audio_files: Array
+export var interrupting: bool
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -8,8 +9,20 @@ func _ready():
 	pass # Replace with function body.
 
 func play_random() -> void:
-	var random_index: = randi() % audio_files.size()
-	stop()
-	stream = audio_files[random_index]
-	play()
+	if(interrupting):
+		var random_index: = randi() % audio_files.size()
+		stop()
+		stream = audio_files[random_index]
+		play()
+	else:
+		if(is_playing()):
+			return
+		else:
+			var random_index: = randi() % audio_files.size()
+			stop()
+			stream = audio_files[random_index]
+			play()
+		
+		
+		
 

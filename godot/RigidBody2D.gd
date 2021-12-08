@@ -5,13 +5,16 @@ signal clicked
 var hand_open = load("res://assets/cursor_open.png")
 var hand_closed = load("res://assets/cursor_closed.png")
 
-var soundPlayer
+var random_wood_player
+var random_voice_player
+
 
 var held = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	soundPlayer = get_node("../AudioStreamPlayer")
+	random_wood_player = get_node("../random_wood_sfx")
+	random_voice_player = get_node("../random_voice_sfx")
 	connect("body_entered", self, "_on_body_entered")
 	pass # Replace with function body.
 
@@ -33,7 +36,9 @@ func _on_body_entered(body):
 	var force = get_linear_velocity().length()
 	print(force)
 	if(force > 100):
-		soundPlayer.play_random()
+		random_wood_player.play_random()
+		random_voice_player.play_random()
+
 
 
 func _physics_process(delta):

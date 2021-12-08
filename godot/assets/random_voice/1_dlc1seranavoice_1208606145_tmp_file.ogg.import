@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1_dlc1seranavoice_1208606145_tmp_file.ogg-2f5f02d951ea8985953006e99ef27c85.oggstr"
+
+[deps]
+
+source_file="res://assets/random_voice/1_dlc1seranavoice_1208606145_tmp_file.ogg"
+dest_files=[ "res://.import/1_dlc1seranavoice_1208606145_tmp_file.ogg-2f5f02d951ea8985953006e99ef27c85.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
