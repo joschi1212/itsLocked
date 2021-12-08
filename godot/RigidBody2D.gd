@@ -28,7 +28,9 @@ func _ready():
 
 
 func _process(delta):
-	pass
+	if(global_transform.origin.length() > 5000):
+		global_transform.origin = Vector2(300, 300)
+
 
 
 func _input_event(viewport, event, shape_idx):
