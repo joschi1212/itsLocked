@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1208112101_1_dlc1seranavoice_Nicht schlecht,.ogg-865d933ef8f2ed0a244cc95f386971e4.oggstr"
+
+[deps]
+
+source_file="res://assets/stark_voice/1208112101_1_dlc1seranavoice_Nicht schlecht,.ogg"
+dest_files=[ "res://.import/1208112101_1_dlc1seranavoice_Nicht schlecht,.ogg-865d933ef8f2ed0a244cc95f386971e4.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

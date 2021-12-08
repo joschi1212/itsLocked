@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/1208134020_1_dlc1seranavoice_oh, repariert..ogg-9a78676613f5040b09cef2b685552e8e.oggstr"
+
+[deps]
+
+source_file="res://assets/kaputt_voice/1208134020_1_dlc1seranavoice_oh, repariert..ogg"
+dest_files=[ "res://.import/1208134020_1_dlc1seranavoice_oh, repariert..ogg-9a78676613f5040b09cef2b685552e8e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
